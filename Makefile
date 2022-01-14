@@ -10,7 +10,7 @@ DIR_OLED = ./lib/OLED
 OBJ_C = $(wildcard ${DIR_OBJ}/*.c ${DIR_Examples}/*.c ${DIR_Config}/*.c ${DIR_FONT}/*.c ${DIR_OLED}/*.c)
 OBJ_O = $(patsubst %.c,${DIR_BIN}/%.o,$(notdir ${OBJ_C}))
 
-TARGET = main
+TARGET = poe-hat-b
 #BIN_TARGET = ${DIR_BIN}/${TARGET}
 
 CC = gcc
