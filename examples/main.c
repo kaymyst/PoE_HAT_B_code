@@ -33,7 +33,7 @@ char Eth0_IP[20],Wlan0_IP[20];
 char temp[20];
 char t[10];
 uint32_t temp_m;
-int FAN_MODE = 0;
+//int FAN_MODE = 0;
 
 int main(void)
 {
